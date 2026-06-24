@@ -1,0 +1,64 @@
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <img  id="icon" src="https://cdn-icons-png.flaticon.com/512/3532/3532127.png" alt="">
+            <section id="nombre">
+                <h3>Libreria</h3>
+                <p id="mini">Sistema Informático</p>
+            </section>
+            <section id="cajaBotones">
+                <button id="autoresLibros">Autores</button>
+                <button id="generosLibros">Generos</button>
+                <button id="libros">Libros</button>
+            </section>
+
+        </header>
+        <p>Codigo: </p><input id="ID" type="text">
+        <p>Titulo: </p><input id="Titulo" type="text">
+        <p>Autor: </p><input  id="Autor" type="text">
+        <p>Genero: </p><input id="Genero" type="text">
+        <p>Fecha de publicación: </p> <input id="fecha" type="text">
+        <button id="IDIngresar">Registrar</button>
+        <button id="IDMostrar">Mostrar</button>
+
+        <button>Autor</button>
+        <button>Autor</button>
+        <div id="miDiv"></div>
+       <script src="script.js"></script>
+    </div>
+</body>
+</html-->
+
+{
+    "autores":[
+        {
+            "cod": "",
+            "nombre": "",
+            "apellido": ""
+        }
+    ],
+    "generos":[
+        {
+            "codigo": "",
+            "nombre": ""
+        }
+    ],
+    "libros":[
+        {
+            "CodLibro": "",
+            "titulo": "",
+            "fechaPublicacion": "",
+            "numPagina": "",
+            "codAutor": "",
+            "codGenero": ""
+        }
+    ]
+}

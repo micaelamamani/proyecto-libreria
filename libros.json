@@ -1,0 +1,43 @@
+
+{
+    "libros":[
+    {
+        "IDLibro": "1",
+        "titulo": "Rayuela",
+        "fechaPublicacion": "1963",
+        "numPagina": "600",
+        "codAutor":"1",
+        "codGenero":"1"
+    },
+    {
+        "IDLibro": "2",
+        "titulo": "Las venas abiertas de america latina",
+        "fechaPublicacion": "1971",
+        "numPagina": "352",
+        "codAutor":"2",
+        "codGenero":"2"
+    }
+],
+   "autores":[
+        {
+            "idAutor": "2",
+            "nombre": "Eduardo",
+            "apellido": "Galeano"
+        },
+        {
+            "idAutor": "1",
+            "nombre": "Julio",
+            "apellido": "Cortazar"
+        }
+   ],
+   "generos":[
+         {
+            "idGenero": "1",
+            "nombre": "Antinovela"
+        },
+        { 
+            "idGenero": "2",
+            "nombre": "Ensayo"
+        }
+   ] 
+}

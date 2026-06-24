@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <img  id="icon" src="https://cdn-icons-png.flaticon.com/512/3532/3532127.png" alt="">
+            <section id="nombre">
+                <h3>Libreria</h3>
+                <p id="mini">Sistema Informático</p>
+            </section>
+           <section id="cajaBotones">
+                <button id="AutorLibros">Autores</button>
+                <button id="GeneroLibros">Generos</button>
+                <button id="LibrosLibros">Libros</button>
+            </section>
+
+     </header>
+<!--Formulario del autor-->
+<div id="formularioAutor" style="display:none;">
+    <h3>Autor</h3>
+    <p>Código:</p>
+    <input type="text" id="IDautor">
+    <p>Nombre:</p>
+    <input type="text" id="NOMBREautor">
+    <p>Apellido:</p>
+    <input type="text" id="APELLIDOautor">
+    <button id="BUSCARautor">Buscar</button>
+    <button id="AGREGARautor">Agregar</button>
+    <button id="MODIFICARautor">Modificar</button>
+</div>
+<!--Formulario del genero del libro-->
+<div id="formGenero" style="display:none;">
+    <h3>Género</h3>
+    <p>Código:</p>
+    <input type="text" id="IDgenero">
+    <p>Género:</p>
+    <input type="text" id="NOMBREgenero">
+    <button id="BUSCARgenero">Buscar</button>
+    <button id="AGREGARgenero">Agregar</button>
+    <button id="MODIFICARgenero">Modificar</button>
+</div>
+
+<!--Formulario del libro-->
+<div id="formLibro" style="display:none;">
+    <h3>Libro</h3>
+    <p>Código:</p>
+    <input type="text" id="IDlibro">
+<button id="BUSCARlibro">BUSCAR</button>
+    <p>Título:</p>
+    <input type="text" id="TITULOlibro">
+    <p>Fecha de Publicación:</p>
+    <input type="text" id="FECHAlibro">
+    <p>Cantidad de páginas:</p>
+    <input type="text" id="NUMlibro">
+    <p>Código Autor:</p>
+    <input type="text" id="IDautor">
+    <p>Código Género:</p>
+    <input type="text" id="IDgenero">
+    <button id="AGREGARlibro">Agregar</button>
+    <button id="MODIFICARlibro">Modificar</button>
+</div>
+        <div id="miDiv"></div>
+        <button id="mostrarMas">Mostrar biblioteca</button>
+        <div id="mostrarMas"></div>
+       <script src="script.js"></script>
+    </div>
+</body>
+</html>
