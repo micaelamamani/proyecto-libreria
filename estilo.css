@@ -55,19 +55,16 @@ button{
     border-radius: 2%;
     border-color: brown;
     color: aliceblue;
-    
 
 }
-
-#formAutor,
-#formGenero,
-#formLibro{
+#formularioAutor,#formGenero,#formLibro{
     margin-top:20px;
    /* padding:20px; */
    /* border:1px solid #ccc; */
     border-radius:10px;
-    color:#ccc;
+    color:#e7bdbd;
     margin-bottom: 20px;
+    margin-left: 43%;
 }
 /*.formulario{
     display:none;
@@ -78,4 +75,7 @@ table, th, td{
     border: 1px solid black;
     padding: 5px;
     
+}
+#mostrarMas{
+    margin-left: 45%;
 }
